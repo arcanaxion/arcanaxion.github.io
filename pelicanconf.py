@@ -34,7 +34,7 @@ DEFAULT_PAGINATION = False
 #RELATIVE_URLS = True
 
 # Disable caching when generating output
-LOAD_CONTENT_CACHE = False
+LOAD_CONTENT_CACHE = True
 
 # Themes
 # https://github.com/notcraig/Pelican-StartBootstrap-Agency
@@ -43,7 +43,7 @@ THEME = Path(__file__).parent / "Pelican-StartBootstrap-Agency"
 SITETITLE = "Zaccheus Sia"  # (also used in menu navigation)
 SITESUBTITLE = "Portfolio"
 INTRO_LG = "Zaccheus Sia"  # (top line of landing page)
-INTRO_SM = "A Portfolio"  # (second line of landing page)
+INTRO_SM = ""  # (second line of landing page)
 PORTFOLIO_TITLE = "Portfolio" 
 PORTFOLIO_SUBTITLE = "Projects I've worked on."
 CURRYEAR = dt.datetime.now().year
